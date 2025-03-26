@@ -1,6 +1,6 @@
 from django.db import models # type: ignore
 
-class Appointment(models.Model):
+class Appointments(models.Model):
     appointment_date = models.DateField()
     appointment_time = models.TimeField()
     person_name = models.CharField(max_length=255)
